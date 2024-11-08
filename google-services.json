@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28987223214",
+    "project_id": "modelbookingapp",
+    "storage_bucket": "modelbookingapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28987223214:android:08d36d20fc020357f0d13f",
+        "android_client_info": {
+          "package_name": "com.example.modelbookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhMOffSYoJ-t4fxMWfrS3chqRE6yZoJIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

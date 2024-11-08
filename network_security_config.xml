@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">your-api-domain.com</domain>
+        <pin-set expiration="2024-12-31">
+            <!-- Add your SSL certificate pins here -->
+            <pin digest="SHA-256">your-pin-here</pin>
+            <!-- Backup pin -->
+            <pin digest="SHA-256">your-backup-pin-here</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
